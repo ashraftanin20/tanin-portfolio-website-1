@@ -1,6 +1,5 @@
 import React from 'react'
 import { BsCheck2Square } from 'react-icons/bs'
-import { SiAltiumdesigner } from 'react-icons/si'
 import './experience.css'
 
 const Experience = () => {

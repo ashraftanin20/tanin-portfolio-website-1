@@ -111,7 +111,7 @@ img {
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES LIKE TABLESTS AND IPADS) */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }

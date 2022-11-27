@@ -1,13 +1,14 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    height: 150vh;
+    padding-top: 4rem;
+    overflow: hidden; 
 }
 
 .header__container {
     text-align: center;
     height: 100%;
     position: relative;
+    
 }
 
 .cta {
@@ -37,14 +38,14 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: auto;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .scroll__down {
@@ -56,16 +57,9 @@ header {
     font-size: 0.9rem;
 }
 
-/* MEDIA QUERIES (MEDIUM DEVICES LIKE TABLESTS AND IPADS) */
-@media screen and (max-width: 960px) {
-    .header {
-        height: 68vh;
-    }
-}
-
 /* MEDIA QUERIES (SMALL DEVICES LIKE SMART PHONES) */
 @media screen and (max-width: 600px) {
-    .header {
+    header {
        height: 100vh;
     }
     .header__socials, 

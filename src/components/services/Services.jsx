@@ -1,7 +1,9 @@
 import React from 'react'
 import './services.css'
 import { BsCheckCircle } from 'react-icons/bs';
-
+import { AiOutlineMobile } from 'react-icons/ai';
+import { CgWebsite } from 'react-icons/cg';
+import { SiMaterialdesign } from 'react-icons/si';
 const Services = () => {
   return (
     <section id='services'>
@@ -11,6 +13,7 @@ const Services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className="service__header">
+            <SiMaterialdesign className='service__header-icon'/>
             <h3>UI/UX Design</h3>
           </div>
 
@@ -37,6 +40,7 @@ const Services = () => {
         </article>
         <article className='service'>
           <div className="service__header">
+            <CgWebsite className='service__header-icon'/>
             <h3>Web Development</h3>
           </div>
           <ul className='service__list'>
@@ -62,6 +66,7 @@ const Services = () => {
         </article>
         <article className='service'>
           <div className="service__header">
+            <AiOutlineMobile className='service__header-icon'/>
             <h3>Mobile App & MIS</h3>
           </div>
 

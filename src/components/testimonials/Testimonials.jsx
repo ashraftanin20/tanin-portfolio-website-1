@@ -35,8 +35,7 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
-        modules={[Navigation, Pagination]} spaceBetween={40}
-        navigation={{ clickable: true}}
+        modules={[ Pagination, Navigation ]} spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true}}
       >

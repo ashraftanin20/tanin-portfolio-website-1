@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './testimonials.css'
 import img1 from '../../assets/testimonial1.JPG';
-import img2 from '../../assets/testimonial2.jpg';
+import img2 from '../../assets/testimonial4.jpg';
 import img3 from '../../assets/testimonial3.JPG';
 
 const data = [

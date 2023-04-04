@@ -1,5 +1,6 @@
 {
   "name": "tanin-portfolio-website-1",
+  "homepage": "http://ashraftanin.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

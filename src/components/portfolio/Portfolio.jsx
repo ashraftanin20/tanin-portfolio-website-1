@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css';
-import shoppingCart from '../../assets/shopping-cart.png';
+import lomani from '../../assets/lomani.png';
 import blog from '../../assets/blog.png';
 
 const Portfolio = () => {
@@ -12,12 +12,12 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
-              <img src={shoppingCart} alt='Shopping Cart' />
+              <img src={lomani} alt='Shopping Cart' />
             </div>
-            <h3>Shopping Card</h3>
+            <h3>Lomani Express</h3>
             <div className="portfolio__item-cta">
-              <a href='https://github.com/ashraftanin20/react-shopping-cart' className='btn' target='_blank' rel="noreferrer">Github</a>
-              <a href='https://lomani-shopping-cart.herokuapp.com/' className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+              <a href='https://github.com/ashraftanin20/lomani-react' className='btn' target='_blank' rel="noreferrer">Github</a>
+              <a href='https://lomani.onrender.com/' className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
             </div>
         </article>
         <article className='portfolio__item'>

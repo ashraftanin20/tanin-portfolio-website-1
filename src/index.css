@@ -13,10 +13,10 @@
     --color-bg: #2f95a0;
     --color-bg-dark: #4D774E;
     --color-bg-variant: #702a62;
-    --color-primary: #d9d9d9;
+    --color-primary: #f7d8eb;
     --color-primary-variant: #702a62;
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-white: #ffffff;
+    --color-light: #ffffff;
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
@@ -58,9 +58,11 @@ h5
  h1 {
     font-size: 2.5rem;
  }
-
+h5 {
+    font-size: 0.95rem;
+}
  section {
-    margin-top: 8rem;
+    margin-top: 3rem;
  }
  section > h2,
  section > h5 {
@@ -116,7 +118,7 @@ img {
         width: var(--container-width-md);
     }
     section {
-        margin-top: 6rem;
+        margin-top: 1rem;
     }
 }
 

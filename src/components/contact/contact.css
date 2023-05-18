@@ -1,8 +1,10 @@
 .container.contact__container {
-    width: 58%;
+    width: 68%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    grid-template-columns: 30% 54% 4%;
     gap: 12%;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact__options {
@@ -49,10 +51,18 @@ input::placeholder, textarea::placeholder {
     color: var(--color-light);
 }
 
-@media screen and (max-width: 1024px) {
+.scroll__up {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 850px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    .scroll__up {
+        display: none;
     }
 }
 

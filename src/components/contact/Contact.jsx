@@ -5,6 +5,7 @@ import { SlSocialSkype } from 'react-icons/sl';
 import { BsWhatsapp } from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { BsArrowUpSquareFill } from 'react-icons/bs';
 
 const Contact = () => {
   
@@ -50,6 +51,10 @@ const Contact = () => {
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
+        <div className='scroll__up'>
+          <a href='#header'><BsArrowUpSquareFill /></a>
+        </div>
+        
       </div>
     </section>
   )

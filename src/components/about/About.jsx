@@ -36,11 +36,9 @@ const About = () => {
             <small>5+ Completed</small>
           </article>
         </div>
-        <p>
-          I was born and grew up in the Ghazni province of Afghanistan. 
-          After graduation from school, I attended in public university entrance exam so-called Kankor exam in Afghanistan in 2004. 
-          I was accepted into the faculty of s . . .
-        </p>
+        <p>My name is Ashraf Tanin and I am a Web Developer. I have done my Bachelor and Master of Science in Computer Science (Informatics).</p>
+        <p>I have worked as IT advisor and then a web developer. I have solid experience with JavaScript, React, React-Redux, HTML, PHP (Laravel) CSS, Bootstrap, REST API, MySQL, MongoDB and Express.</p>
+        <p>I have also good theoretical knowledge of data structure, Object Oriented Programming and software engineering. </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk More!</a>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css';
 import lomani from '../../assets/lomani.png';
-import blog from '../../assets/blog.png';
+import blog from '../../assets/immi_blog.png';
 
 const Portfolio = () => {
   return (
@@ -27,7 +27,7 @@ const Portfolio = () => {
           
           <h3>Simple Blogging App</h3>
           <div className='portfolio__item-cta'>
-            <a href='https://tanin-blog.herokuapp.com/' className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+            <a href='https://immi.ashraftanin.com/' className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
       </div>

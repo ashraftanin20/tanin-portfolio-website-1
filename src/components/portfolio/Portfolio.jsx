@@ -17,7 +17,7 @@ const Portfolio = () => {
             <h3>Lomani Express</h3>
             <div className="portfolio__item-cta">
               <a href='https://github.com/ashraftanin20/lomani-react' className='btn' target='_blank' rel="noreferrer">Github</a>
-              <a href='https://lomani.onrender.com/' className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+              <a href='https://lomani.ashraftanin.com/' className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
             </div>
         </article>
         <article className='portfolio__item'>
@@ -27,6 +27,7 @@ const Portfolio = () => {
           
           <h3>Simple Blogging App</h3>
           <div className='portfolio__item-cta'>
+            <a href='https://github.com/ashraftanin20?tab=repositories' className='btn' target='_blank' rel="noreferrer">Github</a>
             <a href='https://immi.ashraftanin.com/' className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>

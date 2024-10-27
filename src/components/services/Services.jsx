@@ -14,7 +14,7 @@ const Services = () => {
         <article className='service'>
           <div className="service__header">
             <SiMaterialdesign className='service__header-icon'/>
-            <h3>UI/UX Design</h3>
+            <h3>Software Development</h3>
           </div>
 
           <ul className='service__list'>
@@ -22,52 +22,46 @@ const Services = () => {
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-              <p>Design of modern User Interfaces for Web Applications.</p>
+              <p>Development and implemation of Business Central</p>
             </li>
             <li>
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-              <p>Design of modern User Interfaces for Mobile Apps</p>
+              <p>Design and Development of new features and components for BC using JS and Control add-in</p>
             </li>
             <li>
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-              <p>Design of modern User Interfaces for Self-Service Kiosks.</p>
+              <p>Advisory and Consulation on ERP implementation and integration</p>
             </li>
           </ul>
         </article>
         <article className='service'>
           <div className="service__header">
             <CgWebsite className='service__header-icon'/>
-            <h3>Web Development</h3>
+            <h3>Customization</h3>
           </div>
           <ul className='service__list'>
             <li>
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-                <p>Design and Development of modern Web Applications.</p>
+                <p>Extending Customizing BC to fullfill your specific Buiness/company requirements</p>
             </li>
             <li>
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-              <p>Design and Development of Mobile Apps</p>
-            </li>
-            <li>
-              <div>
-                <BsCheckCircle className='service__list-icon' />
-              </div>
-              <p>Design, Development and implementation of Self-Service Kiosks.</p>
+              <p>Design and Development of new and cusomized reports</p>
             </li>
           </ul>
         </article>
         <article className='service'>
           <div className="service__header">
             <AiOutlineMobile className='service__header-icon'/>
-            <h3>Mobile App & MIS</h3>
+            <h3>Integration</h3>
           </div>
 
           <ul className='service__list'>
@@ -75,25 +69,19 @@ const Services = () => {
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-                <p>Android Mobile native Apps</p>
+                <p>Integration</p>
             </li>
             <li>
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-                <p>HR Management Information System.</p>
+                <p>Integrating systems by developing API and connecting your internal systems or connecting with 3rd party</p>
             </li>
             <li>
               <div>
               <BsCheckCircle className='service__list-icon' />
               </div>
-                <p>Finance Management Information System.</p>
-            </li>
-            <li>
-              <div>
-              <BsCheckCircle className='service__list-icon' />
-              </div>
-                <p>Stock Management Information System</p>
+                <p>Importing your data to BC and exporting data based on company requirements</p>
             </li>
           </ul>
         </article>

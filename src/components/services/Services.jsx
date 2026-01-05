@@ -22,13 +22,13 @@ const Services = () => {
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-              <p>Development and implemation of Business Central</p>
+              <p>Implemation & Configuration of Business Central (BC)</p>
             </li>
             <li>
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-              <p>Design and Development of new features and components for BC using JS and Control add-in</p>
+              <p>Design & Development of new features, components, modules using AL, JS, HTML & CSS</p>
             </li>
             <li>
               <div>
@@ -48,13 +48,13 @@ const Services = () => {
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-                <p>Extending Customizing BC to fullfill your specific Buiness/company requirements</p>
+                <p>Extending and Customizing BC to fullfill your specific Buiness/company requirements</p>
             </li>
             <li>
               <div>
                 <BsCheckCircle className='service__list-icon' />
               </div>
-              <p>Design and Development of new and cusomized reports</p>
+              <p>Design and Development of standard and custom reports</p>
             </li>
           </ul>
         </article>

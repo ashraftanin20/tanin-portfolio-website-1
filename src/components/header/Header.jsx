@@ -8,7 +8,8 @@ const Header = () => {
       <div className="container header__container" id='header'>
         <h5>Hello, everyone. I'm</h5>
         <h1>Ashraf Tanin</h1>
-        <h4>FULL STACK WEB DEVELOPER</h4>
+        <h4>Software Developer</h4>
+        <h5>with strong expertise in Microsoft Dynamics 365 Business Central</h5>
         <CTA />
         <Socials />
        

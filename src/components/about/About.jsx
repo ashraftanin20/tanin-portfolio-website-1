@@ -38,7 +38,7 @@ const About = () => {
         </div>
         <p>My name is Ashraf Tanin and I am a Software Developer. I have done my Bachelor and Master of Science in Computer Science (Informatics).</p>
         <p>I have worked as IT advisor, web developer and then Software developer. I have solid experience working as Business Central Developer, JavaScript, HTML, REST API, MySQL, and SQL.</p>
-        <p>I have also good theoretical and practical knowledge of data structure, Object Oriented Programming and software engineering. </p>
+        <p>I have also good theoretical and practical knowledge of data structure and algorithms, Object Oriented Programming and software engineering. </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk More!</a>
       </div>
